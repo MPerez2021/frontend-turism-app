@@ -1,0 +1,119 @@
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    min-height: calc(100vh - 193.88px);
+}
+
+.carusel {
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #1A1A1A;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 400px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: black;
+}
+
+@media (max-width: 600px) {
+    .carousel-item {
+        height: 280px;
+    }
+}
+
+.card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fondo {
+    background-color: #1A1A1A;
+}
+
+.card-body {
+    border-style: outset;
+    
+}
+.card-body p{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.carousel-control-prev {
+    background-color: #424242;
+}
+.carousel-control-next {
+    background-color: #424242;
+}
+.description p {
+    color: black;
+    font-size: medium;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn_edit {
+    margin-left: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.ubication p {
+    font-weight: bold;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    margin-top: 10px;
+}
+
+.tittle {
+    margin-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+body {
+    background-color: #333;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#social .Whatsapp i {
+    font-size: 16px;
+}
+
+#social .instagram {
+    font-size: 16px;
+}
+
+#social a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    border-radius: 5px;
+    background-color: #555;
+    margin-right: 10px;
+}
+
+
+
+.boton {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    border-radius: 10px;
+}
